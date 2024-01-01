@@ -6526,8 +6526,6 @@ img{
     margin-top:5px;
 }
 
-
-
-.custom-styling{
-	padding: 0 15px;
+.main-menu .navigation > li > a.active-btn{
+	color:#e1a122 !important;
 }
