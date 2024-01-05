@@ -575,11 +575,14 @@ img{
 	transition:all 300ms ease;	
 }
 
-#logo{
+.logo-img{
+	max-height: 6.25rem;
+}
+.small-logo-img{
 	max-height: 100px;
 }
-#small-logo{
-	max-height: 100px;
+#long-img{
+	height:1030px;
 }
 
 .main-header .header-upper{
@@ -3499,7 +3502,7 @@ img{
 .fluid-section-two .outer-container{
 	position:relative;
 	min-height:250px;
-	background-color:#00204c;
+	background-color: #e1a12245;
 }
 
 .fluid-section-two .image-column{
@@ -6528,4 +6531,19 @@ img{
 
 .main-menu .navigation > li > a.active-btn{
 	color:#e1a122 !important;
+}
+.custom-words{
+	color:#e1a122;
+	font-weight: bold;
+}
+.centered-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.services-section-two.style-two .sec-title h2{
+	font-size: 4rem;
+}
+.services-section-two.style-two .list-style-one li{
+	font-size: 1.5rem;
 }
